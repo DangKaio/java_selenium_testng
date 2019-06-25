@@ -24,7 +24,7 @@ public class NGtest {
     @Test
     public void actions(){
         //设置驱动所在位置
-        System.setProperty("webdriver.chrome.driver", "D:\\Software\\Python37\\Scripts\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "E:\\Python_Web\\python-selenium-unittest\\webdriver\\chromedriver.exe");
         //引用谷歌浏览器驱动
         WebDriver driver = new ChromeDriver();
         // 设置等待页面加载时间是10秒，如果10秒内加载完毕，剩余时间不再等待
